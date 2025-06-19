@@ -1,4 +1,4 @@
-import logoDark from "./logo-dark.svg";
+import logoDark from "./n8n_logo.png";
 import logoLight from "./logo-light.svg";
 
 export function Welcome() {
