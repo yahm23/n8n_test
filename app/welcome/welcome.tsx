@@ -8,7 +8,7 @@ export function Welcome() {
           <div className="w-[500px] max-w-[100vw] p-4">
             <img
               src={logoDark}
-              alt="React Router"
+              alt="n8n logo"
               className="hidden w-full dark:block"
             />
           </div>
@@ -42,8 +42,8 @@ export function Welcome() {
 
 const resources = [
   {
-    href: "https://reactrouter.com/docs",
-    text: "React Router Docs",
+    href: "https://docs.n8n.io/",
+    text: "n8n Docs",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -58,6 +58,19 @@ const resources = [
           strokeWidth="1.5"
           strokeLinecap="round"
         />
+      </svg>
+    ),
+  },
+  {
+    href: "https://deepmind.google/models/gemini/pro/",
+    text: "Gemini: AI",
+    icon: (
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="12" fill="#E6F0FA"/>
+        <circle cx="32" cy="32" r="20" stroke="#0052CC" stroke-width="2"/>
+        <path d="M24 32h16M32 24v16" stroke="#0052CC" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="32" cy="32" r="2" fill="#0052CC"/>
+        <text x="18" y="58" font-size="10" fill="#0052CC" font-family="Arial, sans-serif">AI</text>
       </svg>
     ),
   },
